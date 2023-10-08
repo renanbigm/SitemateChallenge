@@ -1,4 +1,4 @@
-import { modelCreate, modelFindAll, modelDeleteById, modelUpdate } from '../models/tasksModel.mjs';
+import { modelCreate, modelFindAll, modelDeleteById, modelUpdate } from '../models/TasksModel.mjs';
 
 export async function serviceCreate(body) {
   const reqBody = JSON.parse(body);
